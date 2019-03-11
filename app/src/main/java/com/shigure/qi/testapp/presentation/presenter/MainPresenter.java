@@ -11,14 +11,12 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.Random;
 
-import javax.inject.Inject;
-
 public class MainPresenter implements MainScreen.Presenter {
 
     private final static int TIK_TIME = 1000;
     private final static int SILVER_VALUE = 1;
     private final static int GOLD_VALUE = 2;
-    private final static int RED_VALUE = -5;
+    private final static int RED_VALUE = -3;
 
     private WeakReference<MainScreen.View> view;
     private Handler gameHandler;

@@ -2,7 +2,6 @@ package com.shigure.qi.testapp.presentation.view;
 
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
-import android.os.Handler;
 import android.support.v4.content.ContextCompat;
 import android.view.View;
 import android.widget.Button;
@@ -17,10 +16,6 @@ import com.shigure.qi.testapp.presentation.presenter.MainPresenter;
 
 import java.util.ArrayList;
 import java.util.List;
-
-import javax.inject.Inject;
-
-import dagger.Component;
 
 public class MainActivity extends MainScreen.View {
 

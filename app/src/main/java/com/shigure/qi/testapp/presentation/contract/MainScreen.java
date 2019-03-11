@@ -4,15 +4,8 @@ import android.support.annotation.DrawableRes;
 import android.support.annotation.IdRes;
 import android.support.v7.app.AppCompatActivity;
 
-import com.shigure.qi.testapp.presentation.presenter.MainPresenter;
-
 import java.util.List;
 
-import javax.inject.Inject;
-
-import dagger.Component;
-import dagger.Module;
-import dagger.Provides;
 
 public interface MainScreen {
     abstract class View extends AppCompatActivity {
